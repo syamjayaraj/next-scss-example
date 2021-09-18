@@ -1,0 +1,22 @@
+.cardContainer {
+  display: flex;
+.card {
+  margin-left: 1rem;
+  margin-right: 1rem;
+  box-shadow: 5px 5px 20px rgb(0 0 0 / 10%);
+  padding: 1rem;
+  width: 100%;
+  height: auto;
+  .title {
+    font-size: 2em;
+    margin-bottom: 1rem;
+  }
+  .description {
+    font-size: 1em;
+  }
+  &:hover {
+    background: rgb(235, 235, 235);
+    cursor: pointer;
+  }
+}
+}
